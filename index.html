@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet">
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portafolio Anderson</title>
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <link rel="icon" href="./images/favicon.png"> 
+        <link rel="stylesheet" href="./css/styles.css">
+    </head>
+
+    <header>
+        <div class="container">
+            <div class="row container-nav">        
+                <nav class="contenido navbar navbar-expand-lg navbar-light" >        
+                    <!-- Logo -->
+                    <a class="logo navbar-brand d-flex align-items-center" href="#">
+                        <img src="./images/codigo.png" alt="Logo" width="40" class="me-2">
+                        <h5 class="mb-0">Portafolio</h5>
+                    </a>
+
+                    <!-- Botón hamburguesa -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"
+                    aria-controls="navMenu" aria-expanded="false" aria-label="Alternar navegación" id="contacto">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <!-- Contenido del menú -->
+                    <div class="navegador collapse navbar-collapse" id="navMenu">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item"><a class="nav-link" href="#sobre-mi">Sobre Mí</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#habilidades-formacion">Habilidades</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#intereses">Intereses</a></li>                     
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <body>
+        <main>
+            <!--Sección Sobre mí-->
+            <section id="sobre-mi">
+                    <div class="container-fluid">
+                        <img src="./images/profile.jpg" alt="" class="me-10 rounded-circle yo">
+                        <h2>Anderson Cardona</h2>
+                        <h3 class="accent"><span >Desarrollador</span></h3>
+                        <p>Soy un desarrollador apasionado por crear soluciones tecnológicas innovadoras. Con poca experiencia en el desarrollo web tanto frontend como backend, aun así disfruto enfrentando nuevos retos y aprendiendo constantemente.</p>
+                        <p>Mi objetivo es combinar diseño y funcionalidad para crear experiencias de usuario excepcionales. Mis intereses están enfocados en JavaScript, Java, Python, Node.js y bases de datos SQL/NoSQL.</p>
+                        
+                        <!--Sección Contacto-->
+                        <section class="contacto">
+                            <div class="mail">
+                                <img src="./images/at-sign.svg" alt="Mail">
+                                <p>Anderson.cardona0890gmail.com</p>
+                            </div>
+
+                            <div class="mail">
+                                <img src="./images/phone.svg" alt="Mail">
+                                <p>+57 3024453146</p>
+                            </div>
+
+                            <div class="mail">
+                                <img src="./images/map-pin.svg" alt="Mail">
+                                <p>Amagá - Antioquia</p>
+                            </div>
+            
+                        </section>
+                    </div>
+            </section>
+
+
+            <!--Sección Habilidades y Formación-->
+            <section id="habilidades-formacion">
+                <h2>Habilidades</h2>   
+                <div class="row">
+                    <div class="tech-cards my-5">
+                        <div class="tech-card col-12 col-sm-6 col-md-6 col-lg-6">                     
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" />
+                            <p>Java</p>
+                        </div>
+
+                        <div class="tech-card col-12 col-sm-6 col-md-6 col-lg-6">                                            
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
+                            <p>HTML5</p>
+                        </div>
+
+                        <div class="tech-card col-12 col-sm-6 col-md-6 col-lg-6">   
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
+                            <p>CSS3</p>
+                        </div>
+
+                        <div class="tech-card col-12 col-sm-6 col-md-6 col-lg-6">         
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" /> 
+                            <p>SQL</p>
+                        </div>
+
+                        <div class="tech-card col-12 col-sm-6 col-md-6 col-lg-6">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
+                            <p>JavaScript</p>
+                        </div>     
+                    </div>
+                </div>
+
+                <h2>Formación Académica</h2>
+                <div class="container">
+                    <div class="row">
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                    Bachillerato
+                                </button>
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">I.E Normal Superior Amagá</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                    Universidad
+                                </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Corporación Universitaria LaSallista (2022 - Actualidad)</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+            <!--Sección Proyectos-->
+            <section id="proyectos">
+                <h2>Proyectos</h2>
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="./images/logoRipa.png" class="img-fluid rounded-start" alt="Ripa">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Ripa SGI</h5>
+                                <p class="card-text">El proyecto Ripa SGI (Sistema de Gestión de Datos), se basa en un software que nos permite administrar el flujo de mesas y clientes en lugares como panaderías, esto nos ayuda a optimizar todo el proceso de diligenciación y venta de productos, manejando un sistema por mesas.</p>
+                                <p class="card-text"><small class="text-body-secondary">Última actualización hace 11 meses</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <h3></h3>
+                <p></p>
+            </section>
+            <!--Sección Intereses-->
+            <section id="intereses">
+                <h2>Intereses</h2>
+                <div class="row">
+                    <div class="tech-cards my-5">
+                        <div class="tech-card1 col-12 col-sm-6 col-md-6 col-lg-6">                     
+                            <img src="./images/desarrollo-web.png" />
+                            <p>Desarrollo Web</p>
+                        </div>
+
+                        <div class="tech-card1 col-12 col-sm-6 col-md-6 col-lg-6">                                            
+                            <img src="./images/desarrollo-de-frontend.png" />
+                            <p>Frontend</p>
+                        </div>
+
+                        <div class="tech-card1 col-12 col-sm-6 col-md-6 col-lg-6">   
+                            <img src="./images/backend.png" />
+                            <p>Backend</p>
+                        </div>
+
+                        <div class="tech-card1 col-12 col-sm-6 col-md-6 col-lg-6">         
+                            <img src="./images/archivo-de-base-de-datos.png" /> 
+                            <p>Bases de Datos</p>
+                        </div>   
+                    </div>
+                </div>
+        </main>
+
+        <script  src="./js/bootstrap.min.js"></script>
+    </body>
+    <!---->
+    <footer>
+        &copy; 2025 Derechos Reservados
+    </footer>
+</html>
